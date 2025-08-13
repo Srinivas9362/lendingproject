@@ -7,8 +7,8 @@
 
 -- change context
 use role sysadmin;          -- use sysadmin role
-create database demo_db;    -- create demo_db database
-use schema demo_db.public;  -- use default public schema
+create database git_demo;    -- create git_demo database
+use schema git_demo.public;  -- use default public schema
 use warehouse compute_wh;   -- use compute warehouse
 
 -- 
@@ -42,7 +42,7 @@ list @my_int_stg;
 
 
 -- lets talk about table stage
-create or replace transient table demo_db.public.customer (
+create or replace transient table git_demo.public.customer (
     cust_key number,
     name text,
     address text,
