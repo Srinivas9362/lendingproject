@@ -7,7 +7,7 @@
 
 -- change context
 use role sysadmin;          -- use sysadmin role
-create database git_demo;    -- create git_demo database
+-- create database git_demo;    -- create git_demo database
 use schema git_demo.public;  -- use default public schema
 use warehouse compute_wh;   -- use compute warehouse
 
